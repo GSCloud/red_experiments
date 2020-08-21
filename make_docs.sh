@@ -1,4 +1,5 @@
 #!/bin/bash
+# docs/ repo: https://github.com/red/docs.git
 
 # English
 cd ./docs/en/
