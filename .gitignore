@@ -1,0 +1,10 @@
+*.bak
+*.tar
+*.tgz
+*.zip
+*.r
+*.so
+*~
+.DS_Store
+.Trash-1000
+Thumbs.db

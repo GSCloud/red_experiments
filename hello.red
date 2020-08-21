@@ -1,3 +1,3 @@
-Red [Title: "Hello world"]
+Red[]
 
 print "Hello World!"
