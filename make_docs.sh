@@ -1,25 +1,22 @@
 #!/bin/bash
-# docs/ repo: https://github.com/red/docs.git
+# docs/ repository: https://github.com/red/docs.git
 
-# English
-cd ./docs/en/
+# list of languages to process
+lang="cs en"
 
-for i in *.adoc
+for l in $lang
 do
-  docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf "$i"
+  mkdir -p ./PDF/$l
+  if [ ! -d "./docs/$l/" ]; then continue; fi
+
+  cd ./docs/$l/
+  for i in *.adoc
+  do
+    echo -en "$l: $i\n"
+    docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf "$i"
+  done
+  mv -f *.pdf ../../PDF/$l/
+  cd ../..
 done
 
-mv *.pdf ../../PDF/en/
-cd ../..
-
-
-# Czech
-cd ./docs/cs/
-
-for i in *.adoc
-do
-  docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf "$i"
-done
-
-mv *.pdf ../../PDF/cs/
-cd ../..
+echo -en "\n\nDone.\n"
