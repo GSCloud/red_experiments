@@ -1,11 +1,12 @@
 *.bak
+*.r
+*.so
 *.tar
 *.tgz
 *.zip
-*.r
-*.so
 *~
 .DS_Store
 .Trash-1000
 Thumbs.db
+docs/**
 libRedRT-include.red
