@@ -8,5 +8,5 @@
 .DS_Store
 .Trash-1000
 Thumbs.db
-docs/**
+docs/*
 libRedRT-include.red
