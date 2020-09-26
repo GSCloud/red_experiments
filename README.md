@@ -1,6 +1,6 @@
 # Red experiments
 
-BitBucket: [https://bitbucket.org/gscloud/red_experiments]
+BitBucket: [https://bitbucket.org/gscloud/red_experiments]  
 GitHub: [https://github.com/GSCloud/red_experiments]
 
 ## Usage
@@ -15,7 +15,9 @@ GitHub: [https://github.com/GSCloud/red_experiments]
 ## Examples
 
 `red --version`
+
 `red hello.red`
+
 `red GUI_test.red`
 
 Author: Filip Oščádal aka Fred Brooker 💌 <oscadal@gscloud.cz>
