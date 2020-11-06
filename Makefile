@@ -1,7 +1,8 @@
 all: info
 
 info:
-	@echo "\e[1;32m👾 Welcome to Red Experiments 👾"
+	@echo "\e[1;32m👾 Welcome to Red Experiments 👾\n"
+
 	@echo "🆘 \e[0;1mmake doc\e[0m - rebuild documentation"
 	@echo "🆘 \e[0;1mmake everything\e[0m - run all make points"
 	@echo "🆘 \e[0;1mmake install\e[0m - (re)install Red"
