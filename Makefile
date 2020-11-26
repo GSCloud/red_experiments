@@ -4,7 +4,6 @@ info:
 	@echo "\e[1;32m👾 Welcome to Red Experiments 👾\n"
 
 	@echo "🆘 \e[0;1mmake doc\e[0m - rebuild documentation"
-	@echo "🆘 \e[0;1mmake everything\e[0m - run all make points"
 	@echo "🆘 \e[0;1mmake install\e[0m - (re)install Red"
 	@echo "🆘 \e[0;1mmake reddoc\e[0m - rebuild Red documentation"
 	@echo "🆘 \e[0;1mmake test\e[0m - test Red"
