@@ -1,16 +1,18 @@
 #!/bin/bash
-# docs/ repository: https://github.com/red/docs.git
+# get documentation/ repository: https://github.com/red/docs.git
 
 # list of languages to process
+folder="documentation"
 lang="cs en"
 
+mkdir -p $folder
 for l in $lang
 do
   mkdir -p ./PDF/$l
   mkdir -p ./EPUB/$l
-  if [ ! -d "./docs/$l/" ]; then continue; fi
+  if [ ! -d "./$folder/$l/" ]; then continue; fi
 
-  cd ./docs/$l/
+  cd ./$folder/$l/
   for i in *.adoc
   do
     echo -en "$l: $i\n"

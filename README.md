@@ -6,18 +6,15 @@ GitHub: [https://github.com/GSCloud/red_experiments]
 ## Usage
 
 * **make** - CLI help
-* 🆘 make doc - rebuild documentation
-* 🆘 make everything - run all make points
+* 🆘 make docs - rebuild documentation
 * 🆘 make install - (re)install Red
-* 🆘 make reddocs - rebuild Red documentation
+* 🆘 make documentation - rebuild Red documentation
 * 🆘 make test - test Red
 
 ## Examples
 
-`red --version`
-
-`red hello.red`
-
+`red --version`  
+`red hello.red`  
 `red GUI_test.red`
 
 Author: Filip Oščádal aka Fred Brooker 💌 <oscadal@gscloud.cz>
