@@ -20,4 +20,4 @@ install:
 test:
 	@/bin/bash ./test.sh
 
-everything: install test doc reddoc
+everything: install test docs
