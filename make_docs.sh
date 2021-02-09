@@ -1,9 +1,11 @@
 #!/bin/bash
-# get documentation/ repository: https://github.com/red/docs.git
+# first get repository: git clone https://github.com/red/docs.git documentation
+
+# destination
+folder="documentation"
 
 # list of languages to process
-folder="documentation"
-lang="cs en"
+lang="cs en fr ja"
 
 mkdir -p $folder
 for l in $lang
