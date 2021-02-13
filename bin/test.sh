@@ -7,3 +7,5 @@ red --version
 
 echo -en "\nRed Hello world:\n"
 red hello.red
+red -c hello.red
+./hello

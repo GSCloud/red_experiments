@@ -10,7 +10,8 @@ GitHub: [https://github.com/GSCloud/red_experiments]
 ## Examples
 
 `red --version`  
-`red hello.red`  
+`red hello.red`
+`red -c hello.red`
 `red GUI_test.red`
 
 Author: Filip Oščádal aka Fred Brooker 💌 <oscadal@gscloud.cz>

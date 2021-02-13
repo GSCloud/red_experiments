@@ -10,4 +10,7 @@
 .Trash-1000
 Thumbs.db
 documentation/*
+
 libRedRT*
+GUI_test
+hello
