@@ -5,13 +5,15 @@ GitHub: [https://github.com/GSCloud/red_experiments]
 
 ## Usage
 
-* **make** - CLI help
+* **make** -> CLI help
 
 ## Examples
 
-`red --version`  
-`red hello.red`
-`red -c hello.red`
-`red GUI_test.red`
+```bash
+red --version
+red hello.red
+red -c hello.red
+red GUI_test.red
+```
 
 Author: Filip Oščádal aka Fred Brooker 💌 <oscadal@gscloud.cz>

@@ -1,5 +1,14 @@
 #!/bin/bash
-# first get repository: git clone https://github.com/red/docs.git documentation
+#@author Filip Oščádal <oscadal@gscloud.cz>
+
+# !!! first get repository: git clone https://github.com/red/docs.git documentation
+
+ABSPATH=$(readlink -f $0)
+ABSDIR=$(dirname $ABSPATH)
+dir="$(dirname "$0")"
+. "$dir/_includes.sh"
+
+command -v docker >/dev/null 2>&1 || fail "Docker is NOT installed!"
 
 # destination
 folder="documentation"
@@ -13,7 +22,6 @@ do
   mkdir -p ./PDF/$l
   mkdir -p ./EPUB/$l
   if [ ! -d "./$folder/$l/" ]; then continue; fi
-
   cd ./$folder/$l/
   for i in *.adoc
   do
@@ -26,4 +34,4 @@ do
   cd ../..
 done
 
-echo -en "\n\nDone.\n"
+exit 0

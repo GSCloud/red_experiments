@@ -1,11 +1,22 @@
 #!/bin/bash
+#@author Filip Oščádal <oscadal@gscloud.cz>
 
-command -v red >/dev/null 2>&1 || { echo "Red is NOT installed!"; exit;}
+ABSPATH=$(readlink -f $0)
+ABSDIR=$(dirname $ABSPATH)
+dir="$(dirname "$0")"
+. "$dir/_includes.sh"
 
-echo -en "\nRed version:\n"
-red --version
+command -v red >/dev/null 2>&1 || fail "Docker is NOT installed!"
 
-echo -en "\nRed Hello world:\n"
-red hello.red
+info "Red version: $(red --version)"
+info "Red 'Hello World' example: $(red hello.red)"
+
+info "Compiling:"
+
 red -c hello.red
+
+info "Run test:"
+
 ./hello
+
+exit 0
