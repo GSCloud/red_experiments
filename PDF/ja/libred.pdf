@@ -2,10 +2,10 @@
 %ÿÿÿÿ
 1 0 obj
 << /Title (LibRed API)
-/Creator (Asciidoctor PDF 1.6.2, based on Prawn 2.4.0)
-/Producer (Asciidoctor PDF 1.6.2, based on Prawn 2.4.0)
+/Creator (Asciidoctor PDF 1.6.0, based on Prawn 2.4.0)
+/Producer (Asciidoctor PDF 1.6.0, based on Prawn 2.4.0)
 /ModDate (D:20200821153311+00'00')
-/CreationDate (D:20220122070151+00'00')
+/CreationDate (D:20220205193035+00'00')
 >>
 endobj
 2 0 obj
@@ -5182,7 +5182,7 @@ ET
 0.2 0.2 0.2 scn
 0.2 0.2 0.2 SCN
 
-114.0078 Tw
+114.0077 Tw
 
 BT
 48.24 450.735 Td
@@ -5197,7 +5197,7 @@ ET
 0.2 0.2 0.2 scn
 0.2 0.2 0.2 SCN
 
-114.0078 Tw
+114.0077 Tw
 
 BT
 90.072 450.735 Td
@@ -5218,7 +5218,7 @@ ET
 0.2 0.2 0.2 scn
 0.2 0.2 0.2 SCN
 
-114.0078 Tw
+114.0077 Tw
 
 BT
 505.208 450.735 Td
@@ -5233,7 +5233,7 @@ ET
 0.2 0.2 0.2 scn
 0.2 0.2 0.2 SCN
 
-114.0078 Tw
+114.0077 Tw
 
 BT
 547.04 450.735 Td
@@ -11366,7 +11366,7 @@ ET
 24.9789 Tw
 
 BT
-223.5258 319.446 Td
+223.5257 319.446 Td
 /F1.0 10.5 Tf
 <20> Tj
 /F1.1 10.5 Tf
@@ -15590,7 +15590,7 @@ ET
 0.2 0.2 0.2 scn
 0.2 0.2 0.2 SCN
 
-81.2058 Tw
+81.2057 Tw
 
 BT
 48.24 56.253 Td
@@ -15623,7 +15623,7 @@ ET
 0.6941 0.1294 0.2745 scn
 0.6941 0.1294 0.2745 SCN
 
-81.2058 Tw
+81.2057 Tw
 
 BT
 484.04 56.253 Td
@@ -15638,7 +15638,7 @@ ET
 0.2 0.2 0.2 scn
 0.2 0.2 0.2 SCN
 
-81.2058 Tw
+81.2057 Tw
 
 BT
 547.04 56.253 Td
