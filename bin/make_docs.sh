@@ -1,5 +1,5 @@
 #!/bin/bash
-#@author Filip Oščádal <oscadal@gscloud.cz>
+#@author Fred Brooker <git@gscloud.cz>
 
 # !!! first get repository: git clone https://github.com/red/docs.git documentation
 
