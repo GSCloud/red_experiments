@@ -26,8 +26,8 @@ do
   for i in *.adoc
   do
     echo -en "$l: $i\n"
-    docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor:1.9.0 asciidoctor-epub3 "$i"
-    docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor:1.9.0 asciidoctor-pdf "$i"
+    docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor:latest asciidoctor-epub3 "$i"
+    docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor:latest asciidoctor-pdf "$i"
     mv -f *.pdf ../../PDF/$l/
     mv -f *.epub ../../EPUB/$l/
   done

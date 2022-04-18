@@ -6,7 +6,14 @@ dir="$(dirname "$0")"
 
 command -v docker >/dev/null 2>&1 || fail "Docker is NOT installed!"
 
-find . -maxdepth 1 -type f -iname "*.md" -exec echo "{}" \; -exec docker run --rm -v "$(pwd)":/data pandoc/core:latest -f markdown -t asciidoc -i {} -o "{}.adoc" \;
-find . -maxdepth 1 -type f -iname "*.adoc" -exec echo "{}" \; -exec docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor:latest asciidoctor-pdf -a allow-uri-read -d book "{}" \;
+# MarkDown -> ADOC
+find . -type d \( -path ./documentation -o -path ./vendor \) -prune -false -o -iname "*.md" \
+    -exec echo "Converting {} to ADOC" \; \
+    -exec docker run --rm -v "$(pwd)":/data pandoc/core:latest -f markdown -t asciidoc -i {} -o "{}.adoc" \;
+
+# ADOC -> PDF
+find . -type d \( -path ./documentation -o -path ./vendor \) -prune -false -o -iname "*.adoc" \
+    -exec echo "Converting {} to PDF" \; \
+    -exec docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor:latest asciidoctor-pdf "{}" \;
 
 exit 0

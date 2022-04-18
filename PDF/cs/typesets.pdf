@@ -2,10 +2,10 @@
 %ÿÿÿÿ
 1 0 obj
 << /Title (Typesety)
-/Creator (Asciidoctor PDF 1.6.0, based on Prawn 2.4.0)
-/Producer (Asciidoctor PDF 1.6.0, based on Prawn 2.4.0)
+/Creator (Asciidoctor PDF 1.6.2, based on Prawn 2.4.0)
+/Producer (Asciidoctor PDF 1.6.2, based on Prawn 2.4.0)
 /ModDate (D:20220205192510+00'00')
-/CreationDate (D:20220226113304+00'00')
+/CreationDate (D:20220418073244+00'00')
 >>
 endobj
 2 0 obj
@@ -4500,7 +4500,7 @@ ET
 1.6524 Tw
 
 BT
-190.5403 136.866 Td
+190.5402 136.866 Td
 /F1.0 10.5 Tf
 <62697473657421> Tj
 ET
@@ -6189,7 +6189,7 @@ endobj
 /URI (datatypes/bitset.adoc)
 >>
 /Subtype /Link
-/Rect [190.5403 133.8 221.5678 148.08]
+/Rect [190.5402 133.8 221.5678 148.08]
 /Type /Annot
 >>
 endobj

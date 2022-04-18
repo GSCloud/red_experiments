@@ -2,10 +2,10 @@
 %ÿÿÿÿ
 1 0 obj
 << /Title (Redbin format)
-/Creator (Asciidoctor PDF 1.6.0, based on Prawn 2.4.0)
-/Producer (Asciidoctor PDF 1.6.0, based on Prawn 2.4.0)
+/Creator (Asciidoctor PDF 1.6.2, based on Prawn 2.4.0)
+/Producer (Asciidoctor PDF 1.6.2, based on Prawn 2.4.0)
 /ModDate (D:20220226113129+00'00')
-/CreationDate (D:20220226113413+00'00')
+/CreationDate (D:20220418073349+00'00')
 >>
 endobj
 2 0 obj
@@ -12884,7 +12884,7 @@ ET
 0.7932 Tw
 
 BT
-70.4533 55.406 Td
+70.4532 55.406 Td
 /F3.0 10.5 Tf
 <68656164> Tj
 ET
@@ -12899,7 +12899,7 @@ ET
 0.7932 Tw
 
 BT
-91.4533 55.406 Td
+91.4532 55.406 Td
 /F1.0 10.5 Tf
 <206669656c6420696e646963617465732061207a65726f2d6261736564206f6666736574206f662074686520696e64657820706f736974696f6e2066726f6d2074686520626c6f636bd57320686561642e2054686520> Tj
 ET
